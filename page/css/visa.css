@@ -1,0 +1,179 @@
+
+
+.topic_on{
+     color: #f77c00 !important;
+     border-bottom: 3px solid #f77c00;
+
+}
+#wrap #jt{
+
+}
+#wrap #jt  .price{
+        position: absolute;
+    right:0.4rem;
+     bottom:0.2rem;
+}
+#wrap #jt figure img{
+    width:18.75rem;
+    height: 7.5rem;
+}
+#wrap #jt figure{
+    width:100%;
+    height:7.5rem;
+    position: relative;
+    margin-bottom: 0.25rem;
+}
+#wrap #jt figcaption{
+                  background-image: -webkit-linear-gradient( bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3));
+
+    width:100%;
+    height:2.5rem;
+    position: absolute;
+    bottom:0;
+    padding-left: 0.5rem;
+    box-sizing: border-box;
+
+}
+#wrap #jt figure p{
+    line-height: 16px;
+    color: #fff;
+}
+#wrap #jt figure .price{
+    background: rgba(0,0,0,0.5);
+    width:5.0rem;
+    height:1.5rem;
+    text-align: center;
+}
+#wrap #jt figure .th{
+    text-decoration: line-through;
+    color: #eee;
+    line-height: 1.5rem;
+
+
+}
+
+#wrap #jt figure .yuan{
+    color: #ff9000;
+    font-weight: bold;
+margin-left: 0rem;
+line-height: 1.5rem;
+
+
+}
+#headerl .choose{
+margin-right: 0.5rem;
+}
+#wrap .travel_list_choose{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height:auto;
+    z-index: 9999;
+}
+#wrap #jt {
+    position: relative;
+}
+#wrap .travel_list_choose {
+    display: none;
+}
+#wrap .travel_list_choose ul li{
+    width:100%;
+    height:2.5rem;
+    line-height: 2.5rem;
+    background-color: #fff;
+    border-top: 1px solid #eee;
+    color: #4e4e4e;
+    cursor: pointer;
+    padding-left: 1.8rem;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#wrap .travel_list_choose ul .jt{
+    background:#fff url("../img/visa/jticon.png") 0.5rem center no-repeat;
+    background-size: 0.925rem 1.025rem;
+}
+#wrap .travel_list_choose ul .card{
+    background:#fff url("../img/visa/wifi.png") 0.5rem center no-repeat;
+    background-size: 0.975rem 1.0rem;
+}
+#wrap .travel_list_choose ul .visa{
+    background:#fff url("../img/visa/sign.png") 0.5rem center no-repeat;
+    background-size: 0.775rem 0.8rem;
+}
+.dui{
+    color: #ffad40 !important;
+}
+#wrap .travel_list_choose ul .li_dui{
+    width:2.5rem;
+    float: right;
+
+}
+#wrap .travel_list_choose ul .card .li_dui{
+    display: none;
+}
+#wrap .travel_list_choose ul .visa .li_dui{
+    display: none;
+}
+#wrap .card_title{
+    display: none;
+}
+#wrap .card_title ul li{
+    width:100%;
+    height:2rem;
+    line-height: 2rem;
+    background-color: #fff;
+    border-top: 3px solid #eee;
+    color: #4e4e4e;
+    cursor: pointer;
+    padding-left: 1.8rem;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#wrap .card_title ul .li1{
+    background:#fff url("../img/visa/chong.png") 0.5rem center no-repeat;
+    background-size: 1.075rem 1.075rem;
+}
+#wrap .card_title ul .li2{
+    background:#fff url("../img/visa/ji.png") 0.5rem center no-repeat;
+    background-size: 1.225rem 1.225rem;
+}
+#wrap .card_title ul i{
+    width:1.5rem;
+    float: right;
+
+}
+#wrap #jt_title{
+    width:18.75rem;
+    height:2.5rem;
+    line-height: 2.5rem;
+}
+#wrap #jt_title ul li{
+    width:187.5rem;
+    text-align: center;
+    color: #666;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+#wrap .visa_title{
+    display: none;
+}
+#wrap .visa_title ul li{
+        width:100%;
+    height:2rem;
+    line-height: 2rem;
+    background-color: #fff;
+    border-bottom: 3px solid #eee;
+    color: #4e4e4e;
+    cursor: pointer;
+    padding-left: 1.8rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    background:#fff url("../img/visa/chong.png") 0.5rem center no-repeat;
+    background-size: 1.075rem 1.075rem;
+}
+#wrap .visa_title ul i{
+    width:1.5rem;
+    float: right;
+
+
+}

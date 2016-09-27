@@ -1,0 +1,513 @@
+
+ .date_box{
+width:18.75rem;
+height:2.0rem;
+background-color: #fff;
+display: block;
+position: absolute;
+line-height: 2rem;
+box-sizing: border-box;
+padding-left: .5rem;
+border-bottom: 1px solid #ccc;
+
+}
+ .date_box span{
+color: #111 ;
+
+}
+ .date_box  input{
+	color: #fb9705;
+	float: right;
+	text-align: center;
+height:2rem;
+line-height: 2rem;
+border: none;
+border-bottom: 1px solid #ccc;
+
+
+}
+ .date_box ::-webkit-input-placeholder{
+	color: #fb9705;
+}
+.order_title1{
+		width:100%;
+	height: 2.0rem;
+	line-height: 2.0rem;
+			padding-left: 0.5rem;
+					border-bottom: 1px solid #eee;
+											box-sizing: border-box;
+											text-align: center;
+}
+.order_title2{
+		width:100%;
+	height: 2.0rem;
+	line-height: 2.0rem;
+			padding-left: 0.5rem;
+											box-sizing: border-box;
+											background-color: #eee;
+											color: #7c7976;
+}
+
+
+.active_color{
+		color:#fb9705 !important;
+
+}
+.active_bg{
+	background-color: #fb9705 !important;
+	color: #fff !important;
+}
+
+#order{
+		background-color: #fff;
+		width: 100%;
+		color: #252424;
+
+}
+#order .order_title{
+	width:100%;
+	height: 2.0rem;
+	line-height: 2.0rem;
+			padding-left: 0.5rem;
+					border-bottom: 4px solid #eee;
+											box-sizing: border-box;
+
+					
+
+
+}
+#order .order_box{
+		width: 100%;
+height:auto;
+						border-bottom: 4px solid #eee;
+						box-sizing: border-box;
+
+
+}
+#order .order_list{
+	position: relative;
+	width: 100%;
+	height: 2.5rem;
+
+}
+#order .order_list{
+
+	border-bottom: 1px solid #ccc;
+
+}
+#order .order_list .money_box{
+	width: 7.25rem;
+	height: 2.5rem;
+	box-sizing: border-box;
+	position: absolute;
+	top:0;
+	line-height: 1rem;
+	margin-top: .25rem;
+		padding-left: 0.5rem;
+
+
+}
+#order .order_list .money{
+
+	font-weight: bold;
+color:#fb9705;
+
+}
+#order .order_list .count_box{
+	width: 6rem;
+	height: 1.4rem;
+	position: absolute;
+	right: 1rem;
+	top:0.6rem;
+	text-align: center;
+	line-height: 1.3rem;
+
+	border: 1px solid #ccc;
+	background-color: #eee;
+	box-sizing: content-box;
+	border-radius: 0.125rem ;
+
+}
+#order .order_list .count_box .btn{
+	cursor: pointer;
+	line-height: 1.3rem;
+	text-align: center;
+	display: inline-block;
+	width:1.5rem;
+	height: 1.3rem;
+	background-color: #eee;
+	color: #ccc;
+
+
+
+
+}
+#order .order_list .count_box .add{
+
+}
+#order .order_list .count_box .count{
+
+
+	width:2rem;
+	height:1.4rem;
+	color: #444;
+	display: inline-block;
+	background-color: #fff;
+
+	
+text-align: center;
+line-height: 1.4rem;
+
+}
+#address {
+						border-bottom: 4px solid #eee;
+
+}
+#address .address1{
+	border-bottom: 1px solid #ddd;
+	box-sizing: border-box;
+}
+#address  p{
+	width:100%;
+	height: 2.125rem;
+	padding-left: 0.5rem;
+	line-height: 2.125rem;
+		box-sizing: border-box;
+
+
+}
+#address .input{
+		width:60%;
+
+	border:none;
+}
+#customer {
+	padding-bottom: 0.5rem;
+/*						border-bottom: 4px solid #eee;
+*/
+}
+#customer .name{
+
+}
+#customer  p{
+
+	width:100%;
+	height: 2.125rem;
+	padding-left: 0.5rem;
+	line-height: 2.125rem;
+	clear: both;
+	box-sizing: border-box;
+
+}
+
+#customer .input{
+	width:60%;
+	border:none;
+}
+#customer .customer_title{
+	width: 100%;
+	height:1.75rem;
+	line-height: 1.75rem;
+	box-sizing: border-box;
+}
+#customer .customer_title .left{
+	padding-left: 0.5rem;
+
+}
+#customer .customer_title .right{
+	margin-top: 0.375rem;
+	width: 5.8rem;
+	height:1.125rem;
+	background-color: #fb9705;
+	color: #fff;
+	line-height: 1.125rem;
+	text-align: center;
+	border-radius: 0.125rem;
+	cursor: pointer;
+}
+
+#customer .sex{
+
+	clear: both;
+	position: relative;
+}
+#customer .phone{
+
+}#customer #customer_meg{
+							border-bottom: 4px solid #eee;
+
+}
+#customer #customer_meg>p{
+			border-bottom: 1px solid #ddd;
+	box-sizing: border-box;
+}
+#urgent>p{
+				border-bottom: 1px solid #ddd;
+	box-sizing: border-box;
+}
+#urgent{
+	padding-bottom: .625rem;
+}
+#order_footer{
+	width:18.75rem;
+	height: 2.625rem;
+	line-height: 2.625rem;
+	position: fixed;
+	bottom: 0;
+	z-index: 99;
+}
+#order_footer ul li{
+	float: left;
+}
+#order_footer ul .heji{
+	background-color: #fff;
+	text-align: center;
+	width:11.025rem;
+}
+#order_footer ul .heji .money{
+	color:#fb9705;
+}
+#order_footer ul .sub{
+	background-color: #fb9705;
+	width:7.725rem;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+}
+#dialogd{
+	position: fixed;
+	top: 0;
+	width: 18.75rem;
+	height:100%;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 99999;
+	display: none;
+
+}
+#dialogd .dialog_content{
+	width:10.925rem;
+	height: auto;
+margin-left: 3.825rem;
+margin-top: 50%;
+background-color: #fff;
+}
+#dialogd .dialog_content ol{
+	position: relative;
+	width:100%;
+	height:1.775rem;
+	color:#fb9705;
+	text-align: center;
+	line-height: 1.775rem;
+}
+#dialogd .dialog_content ol .close{
+	position: absolute;
+	width:2.5rem;
+	display: inline-block;
+	cursor: pointer;
+	right: 0;
+}
+#dialogd .dialog_content li{
+	width:100%;
+	height: 2.0rem;
+	line-height: 2rem;
+	padding-left: 0.5rem;
+	box-sizing: border-box;
+	color: #383838;
+	border-top: 1px solid #ddd;
+	cursor: pointer;
+	position: relative;
+}
+#dialogd .dialog_content li i{
+	color: #fb9705;
+		position: absolute;
+	width:2.5rem;
+	display: inline-block;
+	cursor: pointer;
+		right: 0;
+
+}
+
+
+.add_box {
+	padding-bottom: 2.9rem;
+
+}
+.add_box ul li{
+	width:100%;
+	height:2rem;
+	line-height: 2rem;
+	padding-left: 0.5rem;
+	box-sizing: border-box;
+	border-bottom: 1px solid #ccc;
+	cursor: pointer;
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input[type=checkbox] {
+  visibility: hidden;
+}
+
+/**
+ * Create the slider bar
+ */
+
+
+.checkboxThree {
+		float: right;
+
+  width: 3rem !important;
+  height: 1.5rem !important;
+  background: #fb9705;
+  margin: 0.25rem 1.5rem;
+
+  border-radius: 1.25rem;
+  position: relative;
+  border:1px solid #fb9705;
+  box-sizing: content-box;
+  display: inline-block;
+}
+
+/**
+ * Create the text for the On position
+ */
+
+/**
+ * Create the pill to click
+ */
+.checkboxThree label {
+  display:inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 1.25rem;
+
+  -webkit-transition: all .3s ;
+  -moz-transition: all .3s ;
+  -o-transition: all .3s ;
+  -ms-transition: all .3s ;
+  transition: all .3s ;
+  cursor: pointer;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: #fff;
+}
+
+/**
+ * Create the checkbox event for the label
+ * @type {[type]}
+ */
+.checkboxThree input[type=checkbox]:checked + label {
+  left: 1.5rem;
+}
+
+ .sex .women{
+	color:#726f6b;
+	height:2rem;
+	display: inline-block;
+	position: absolute;
+	right:.5rem;
+	
+
+}
+ .sex .man{
+	color:#726f6b;
+	height:2rem;
+	display: inline-block;
+		position: absolute;
+	right:5rem;
+
+}

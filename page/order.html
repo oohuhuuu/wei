@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta content="telephone=no,email=no" name="format-detection">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/flexible.css" type="text/css">
+    <link rel="stylesheet" href="css/iconfont.css" type="text/css">
+    <link rel="stylesheet" href="css/visaorder.css" type="text/css">
+    <link rel="stylesheet" href="css/topic.css" type="text/css">
+    <link rel="stylesheet" href="css/calendar.css">
+    <link rel="stylesheet" href="css/sm.css">
+    <link rel="stylesheet" type="text/css" href="css/validate.css">
+
+    <script src="js/flexible.js"></script>
+
+    <script type='application/javascript' src='js/fastclick.js'></script>
+    <title>预定</title>
+</head>
+    <script>
+window.addEventListener('load', function() {
+  FastClick.attach(document.body);
+}, false);
+
+</script>
+    <style type="text/css"></style>
+<body>
+
+    <div id="wrap">
+        <header id="headerl">
+
+            <div class="place font18">
+                <span class="choose visaorder">凯恩斯—布里斯班</span>
+            </div>
+        </header>
+        <div id="demo">
+            <div id="ca"></div>
+            
+        </div>
+
+        <form id="order">
+        <div class="date_box">
+                <span class="font14">预定日期</span>
+                <input type="text" id="dt" placeholder="未选择" data-required="true"  data-descriptions="dated" data-conditional="dataCompare"  ></div>
+            <div class="order_title2 font14">*当前汇率1AUD=5.0RMB</div>
+
+            <div class="order_box">
+                <div class="order_list order_list1">
+                    <div class="money_box ">
+                        <p class="time font14">Adult</p>
+                        <p class="money font14">
+                            ¥
+                            <span class="yuan">100</span>
+                        </p>
+                    </div>
+                    <div class="count_box ">
+                        <input class="hidden" type="hidden" data-required="true" data-descriptions="count" value=""  />
+                        <span class=" common_re  btn  "> <i class="iconfont " style="font-size: 12px">&#xe615;</i>
+                        </span>
+                        <span  class="count count1" >0</span>
+                        <span class=" common_add  btn "> <i class="iconfont " style="font-size: 12px">&#xe614;</i>
+                        </span>
+                    </div>
+                </div>
+                <div class="order_list">
+                    <div class="money_box ">
+                        <p class="time font14">Child(3-14yrs)</p>
+                        <p class="money font14">
+                            ¥
+                            <span class="yuan">10</span>
+                        </p>
+                    </div>
+                    <div class="count_box ">
+                        <span class=" common_re btn  ">
+                            <i class="iconfont " style="font-size: 12px">&#xe615;</i>
+                        </span>
+                        <span  class="count count3" data-required="true" data-descriptions="count" >0</span>
+                        <span class=" btn common_add  ">
+                            <i class="iconfont " style="font-size: 12px">&#xe614;</i>
+                        </span>
+                    </div>
+                </div>
+                                <div class="order_list">
+                    <div class="money_box ">
+                        <p class="time font14">Child(3-14yrs)</p>
+                        <p class="money font14">
+                            ¥
+                            <span class="yuan">20</span>
+                        </p>
+                    </div>
+                    <div class="count_box ">
+                        <span class=" common_re btn  ">
+                            <i class="iconfont " style="font-size: 12px">&#xe615;</i>
+                        </span>
+                        <span  class="count count3" data-required="true" data-descriptions="count" >0</span>
+                        <span class=" btn common_add  ">
+                            <i class="iconfont " style="font-size: 12px">&#xe614;</i>
+                        </span>
+                    </div>
+                </div>
+                                <div class="order_list">
+                    <div class="money_box ">
+                        <p class="time font14">Child(3-14yrs)</p>
+                        <p class="money font14">
+                            ¥
+                            <span class="yuan">30</span>
+                        </p>
+                    </div>
+                    <div class="count_box ">
+                        <span class=" common_re btn  ">
+                            <i class="iconfont " style="font-size: 12px">&#xe615;</i>
+                        </span>
+                        <span  class="count count3" data-required="true" data-descriptions="count" >0</span>
+                        <span class=" btn common_add  ">
+                            <i class="iconfont " style="font-size: 12px">&#xe614;</i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+       
+        <div id="address">
+            <p class="city font14 address1">
+                <label for="address1">*邮寄地址：</label>
+                <input class="input" type="text" name="address1" id="address1" data-required="true" data-descriptions="address1" />
+            </p>
+            <p class="city font14 address2">
+                <label for="address2">*详细地址：</label>
+                <input class="input" type="text" name="address2" id="address2" data-required="true" data-descriptions="address2" />
+            </p>
+
+        </div>
+
+        <div id="customer">
+            <div class="customer_title ">
+                <div class="left fl">
+                    <i class="iconfont" style="font-size:20px">&#xe617;</i>
+                    <span class=" font14">旅客信息</span>
+                </div>
+                <div class="right fr addcs">
+                    <i class="iconfont add_customer" style="font-size:12px">&#xe614;</i>
+                    <span class="font12 add_customer">使用常用旅客</span>
+                </div>
+            </div>
+            <div id="customer_meg">
+                <p class="name font12 ">
+                    <label for="name">*姓名：</label>
+                    <input class="input" type="text" name="name" id="name" data-required="true" data-descriptions="name" />
+                </p>
+                <p class=" sex font12 ">
+                    <span>*性别</span>
+                    <span class="man font12">男</span>
+                    <span class="women font12">女</span>
+                    <span class="checkboxThree">
+
+                        <input type="checkbox" value="1" id="checkboxThreeInput" name="" />
+                        <label for="checkboxThreeInput"></label>
+                    </span>
+
+                </p>
+
+                <p class="phone font12 ">
+                    <label for="phone">手机号(国内)：</label>
+                    <input class="input" type="text" name="phone" id="phone" data-validate="phone" data-describedby="phone-description" />
+                </p>
+                <p class="email font12 ">
+                    <label for="email">*邮箱：</label>
+                    <input class="input" type="text" name="email" id="email" data-validate="email" data-describedby="email-description"  />
+                </p>
+
+            </div>
+
+            <div class="add_box">
+                <ul></ul>
+            </div>
+        </div>
+         </form>
+        <footer id="order_footer">
+            <ul>
+                <li class="heji">
+                    <span class="he font18">合计：</span>
+                    <span class="money font18">
+                        ¥
+                        <span class="count_money">0</span>
+                    </span>
+                </li>
+                <li class="sub font18">立即预定</li>
+            </ul>
+        </footer>
+        <div id="dialogd">
+            <ul class="dialog_content font12">
+                <ol class="font14">
+                    使用常用联系人
+                    <i class="iconfont close " style="font-size:.5rem">&#xe61a;</i>
+                </ol>
+                <li>
+                    <span>姓名：晨晨1</span>
+                    <i class="iconfont fr " style="font-size:.8rem">&#xe619;</i>
+                </li>
+                <li>
+                    <span>姓名：晨晨1</span>
+                    <i class="iconfont fr " style="font-size:.8rem">&#xe619;</i>
+                </li>
+                <li>
+                    <span>姓名：晨晨1</span>
+                    <i class="iconfont fr " style="font-size:.8rem">&#xe619;</i>
+                </li>
+                <li>
+                    <span>姓名：晨晨1</span>
+                    <i class="iconfont fr " style="font-size:.8rem">&#xe619;</i>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <script type='text/javascript' src='js/zepto.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='js/sm.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='js/sm-city-picker2.min.js' charset='utf-8'></script>
+    <script type="text/javascript">
+ $("#address1").cityPicker({
+    toolbarTemplate: '<header class="bar bar-nav">\
+     <button class="button button-link pull-left close-picker">取消</button>\
+    <button class="button button-link pull-right close-picker">确定</button>\
+    <h1 class="title">请选择地址</h1>\
+    </header>'
+  });
+      
+    </script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery-mvalidate.js"></script>
+    <script type="text/javascript">
+$(function(){
+   
+})
+</script>
+    <script src="js/calendar.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/order.js"></script>
+    <script type="text/javascript">
+
+
+var cc;
+        $('#ca').calendar({
+        width: 18.125 + 'rem',
+        height: 20 + 'rem',
+        minDate:['2016-06-18'],
+        onSelected: function(view, date, data) {
+            $('li').removeClass('now');
+            cc = date.format('yyyy-mm-dd');
+            $('#dt').val(cc);
+                         var odate=Date.parse(cc);                  
+            var date1=new Date();                              
+            var  dd = date1.format('yyyy-mm-dd');
+            var ndate=Date.parse(dd);
+            var  c=odate-ndate;
+                       if(c<0){
+        Zepto.toast("只能选择当日及以后的日期");
+
+             }; 
+    
+        }
+        
+    }); 
+        
+
+
+</script>
+</body>
+</html>
